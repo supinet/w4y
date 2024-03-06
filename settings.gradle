@@ -1,0 +1,2 @@
+include 'inventory-service', 'order-service', 'product-service', 'discovery-server', 'api-gateway'
+

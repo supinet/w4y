@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      user:
+      password:
+      url: mongodb://localhost:27017/product_service
+  application:
+    name: product-service
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
+
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+#      defaultZone: http://eureka:password@localhost:8761/eureka
+      defaultZone: http://localhost:8761/eureka
