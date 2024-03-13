@@ -23,3 +23,8 @@ Client Secret: get it on keycloack
 Scope: openid offline_access
 Client Authentication: Send as Basic Auth header
 Click on Generate Access Token button
+
+## Kafka
+https://kafka.apache.org/quickstart
+docker pull apache/kafka:3.7.0
+docker run -p 9092:9092 apache/kafka:3.7.0
