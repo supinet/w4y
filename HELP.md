@@ -28,3 +28,6 @@ Click on Generate Access Token button
 https://kafka.apache.org/quickstart
 docker pull apache/kafka:3.7.0
 docker run -p 9092:9092 apache/kafka:3.7.0
+
+## build
+mvn clean compile jib:build
